@@ -1,0 +1,61 @@
+.signIn{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+.error{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    border-radius: 15px;
+    border: 2px solid #d2d2d2;
+    padding: 20px;
+    margin: 40px;
+}
+.Register{
+    display:flex;
+    flex-direction: column;
+}
+input[type=checkbox]{
+    margin: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: larger;
+    font-weight: 600;
+}
+.alink{
+    color: blue;
+}
+button[type=submit]{
+    width: 40vh;
+    margin: 10px 0;
+    padding:5px;
+    background-color: #ffc74e;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+input[type=password],input[type=text]{
+    margin: 10px 0;
+    width: 30vh;
+    height: 30px;
+    padding: 0 5px;
+}
+p{
+    padding: 15px;
+    width: 30vh;
+}
+h5{
+  display: flex;
+  justify-content: center;  
+}

@@ -1,0 +1,26 @@
+.ProfileContents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+}
+h1{
+    padding: 20px;
+}
+h2{
+    font-weight: 600;
+}
+li{
+    list-style-type: none;
+    width: 340px;
+    height: 100%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #bdbdbd;
+    border-radius: 10px;
+}
+.item div{
+    height: 50px;
+}

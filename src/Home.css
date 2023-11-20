@@ -1,0 +1,29 @@
+.scroller{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: none;
+}
+.scroller:hover{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.banner{
+  width: inherit;
+  height: inherit;
+  z-index: -1;
+}
+.product_row1{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+
